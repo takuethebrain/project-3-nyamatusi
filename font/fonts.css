@@ -1,0 +1,25 @@
+@font-face {
+    font-family:gothamreg;
+    src: url(./Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: gothamitalic;
+    src: url(./Gotham-BookItalic.otf);
+}
+
+@font-face {
+    font-family:papurus;
+    src: url(./papyrus.ttf);
+}
+
+@font-face {
+    font-family: gothambold;
+    src: url(./Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family:gothamthin ;
+    src: url(./Gotham-Light.otf);
+}
+

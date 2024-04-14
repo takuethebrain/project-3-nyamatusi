@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{font-family: gothamreg;}
+
+header{background-image: url(./img/1\ banner\ \ -\ hero.png); height: 27vh; width: 100%; background-repeat: no-repeat; background-size: contain; 
+	   h4{font-family: papyrus; font-size: 20px; color: #e75317; padding-top: 20px; padding-left: 20px; padding-bottom: 5px;}
+       hr{color: white; padding-top: 0px; margin-top: 0px; border: 1px solid; opacity: 70%; margin-bottom: 0px; }
+	   a{text-decoration: none; color: white; font-family: gothamreg; display: none;}
+	   .menu img{width: 30px; height: 20px; position: absolute; right: 10px; top: 20px;}
+	   h1{color: white; text-align: center; font-size: 30px;}
+	   .icons{display: flex; flex-direction: column; position: absolute; right: 20px; top: 75px; align-items: center; justify-content: center;}
+	   .icons img {width: 9px; height: 8px; margin-top: 5px; margin-bottom: 5px;}
+	   .icons .face img{width: 7px; height: 10px;}
+	   .icons .insta img{width: 9px; height: 10px;}
+	   .chevron{display: flex; text-align: center; justify-content: center; margin-top: 80px;}
+	   .chevron img{width: 25px; height: 15px; margin-bottom: 0px; padding: 0px;}
+}
+
+.story{display: flex; flex-direction: column; justify-content: center; text-align: center;
+       h2{ margin: 20px;}
+	   p{margin-bottom: 30px;}
+	   button{margin-bottom: 30px; background-color: #e75317; font-family: gothamreg; color: white; border: #e75317 1px solid; text-align: center; padding: 7px;}
+	   .eleimg img{width: 90%; margin-bottom: 30px;}
+	   .eleimg .chee img{width: 90%; height: 10%;}
+}
+
+.activities{text-align: center;
+	        h2{ margin: 30px;}
+			input[type="radio"]:checked + .slide {display: block;}
+			.slides{display: flex; width: 90%; overflow: hidden; }
+}
+
+.sightings{text-align: center;
+		   h2{margin: 30px;}
+		   p{margin-bottom: 30px;}
+		   .leftpix img{margin-bottom: 30px;}
+		   .right img{margin-bottom: 30px;}
+}
+
+.suggested{color: white; text-align: center;
+	       h2{margin-bottom: 30px; color: black;}
+		   .orangecontainer{display: flex; justify-content: center; text-align: center;}
+          .orange{background-color: #e75317; position: relative; text-align: left; width: 90%;margin-bottom: 20px;}
+		  .heart-container{display: flex; justify-content: flex-end; margin-right: 10px;}
+		  .heart{background-color: white; display: flex; justify-content: center;align-items: center; width: 40px; height: 55px;}
+		  h4{margin-bottom: 20px; margin-left: 10px;}
+		  p{margin-left: 10px;}
+		  ul{list-style: disc;}
+		  hr{border: white solid 1px;}
+		  .hrtop{margin-top: 30px;}
+		  h3{margin-left: 10px;}
+		.itenarary{display: flex; justify-content: space-between; img{width: 30px; height: 15px; margin-right: 20px; margin-top: 10px;} margin-bottom: 20px;}
+		.luximg{width: 90%; margin-bottom: 20px; height: 60vh;}
+		.deluxe img{width: 90%; margin-bottom: 20px; height: 60vh;}
+
+}
+
+.testimonials{text-align: center;
+			  .container{display: flex; justify-content: center;align-items: center; flex-direction: column;}
+	 	      h2{margin-bottom: 30px; margin-top: 30px;}
+	          .jacob img{width: 90%; ; margin-bottom: 20px;}
+			  .gemma-container{display: flex; flex-direction: column; justify-content: center; align-items: center; border: #F50D0D 1px solid; width: 90%; hr{width: 70px; border: #F50D0D 1px solid; text-align: center;} img{margin-top: 50px; margin-bottom: 30px; width: 35%;height: 35%;} margin-bottom: 20px; h5{margin-bottom: 50px;}}
+			  .brown-family img{width: 90%; margin-bottom: 20px;}
+			  
+
+}
+
+.gallery{text-align: center; 
+		 h2{margin-top: 30px; margin-bottom: 30px;}
+		 img{width: 90%; margin-bottom: 20px;}
+}
+
+footer{background-color: #e75317; color: white; margin-bottom: 0px;
+	   .footerall{display: flex; flex-direction: column; justify-content: center; align-items: center; margin-bottom: 0px;}
+	   .quicklinks{display:flex; justify-content: space-around; text-align: start; }
+	   .information{display: flex; justify-content: space-around; flex-direction: column; h4{margin-top: 20px; margin-bottom: 20px; font-style: italic; font-size: 15px; margin-left: 10px;} a{text-decoration: none; color: white; font-size: 10px; margin-left: 10px;} margin-bottom: 10px; line-height: 20px;}
+	   .forms{ margin-left: 10px; margin-right: 0px;h4{margin-top: 20px; margin-bottom: 20px; font-style: italic; font-size: 15px; margin-left: 10px;} form input{margin-bottom: 20px; outline: none; border: white; height: 40px; margin-right: 0px;}}
+	   button{background-color: black; border: black 1px solid; color: white; font-style: italic; height: 40px; padding:5px ;margin-left: 0px;}
+	   p{padding-bottom: 10px; text-align: center; margin-bottom: 0px;}
+	   hr{border: 1px solid white;}
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/*
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
