@@ -22,4 +22,12 @@
     font-family:gothamthin ;
     src: url(./Gotham-Light.otf);
 }
+@font-face {
+    font-family: gothammed;
+    src: url(./GothamBoldItalic.ttf);
+}
 
+@font-face {
+    font-family: gotham;
+    src: url(./GothamMedium.ttf);
+}
