@@ -77,6 +77,8 @@ header{background-image: url(img/zmose.jpg); width: 100%; height: 100vh; backgro
 	   .chevron{display:none;}
 }
 
+html{transition: smooth;}
+
 .story{font-family: gothamreg; text-align: center;
 	   h2{font-size: 40px; margin-top: 50px; text-align: center; font-size: gothamreg; margin-bottom: 30px; color: #3e372d;}
 	   p{font-family: gothamreg; text-align: left; font-size: 15px; margin-bottom: 20px; color: #000000;}
