@@ -370,6 +370,7 @@ header .chevron {
 }
 .sightings .pix img {
   margin-bottom: 20px;
+  width: 100%;
 }
 .sightings .right img {
   margin-bottom: 20px;
@@ -415,9 +416,8 @@ header .chevron {
   background-color: #e75317;
   position: relative;
   text-align: left;
-  width: 90%;
+  width: 100%;
   margin-bottom: 20px;
-  margin-left: 20px;
 }
 .suggested .heart-container {
   display: flex;
@@ -534,6 +534,7 @@ header .chevron {
 }
 .gallery .pix img {
   margin-bottom: 20px;
+  width: 100%;
 }
 .gallery .pix {
   display: flex;
@@ -847,9 +848,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .story .eleimg {
     margin-bottom: 20px;
   }
-  .story .img-fluid {
-    width: 100%;
-  }
   .testimonials {
     margin-bottom: 100px;
   }
@@ -1107,6 +1105,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     text-align: center;
     font-size: 110px;
     margin-top: -10px;
+    font-family: gothamreg;
   }
   header .nature {
     display: none;
@@ -1181,6 +1180,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     margin-bottom: 10px;
     font-family: gothamreg;
     margin-left: 10px;
+    font-size: 15px;
   }
   .story .eleimg {
     margin-bottom: 20px;
@@ -1295,6 +1295,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     text-align: left;
     right: 20px;
     font-size: 15px;
+    margin-left: 15px;
   }
   .sightings {
     display: flex;
@@ -1394,8 +1395,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     position: relative;
     text-align: left;
     width: 50%;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1407,7 +1408,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     margin-right: 10px;
     position: absolute;
     top: 0;
-    right: 10px;
+    right: 5px;
   }
   .suggested .luxury {
     display: flex;
@@ -1453,11 +1454,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .suggested .heart img {
     width: 23px;
     height: 23px;
+    margin-top: 20px;
   }
   .suggested .itenarary {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .suggested .itenarary img {
     width: 30px;
@@ -1552,6 +1554,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .gallery .pix img {
     height: 35vh;
     width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .gallery .pix {
     margin-bottom: 5px;
@@ -1628,7 +1632,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     padding-bottom: 10px;
     text-align: center;
     margin-bottom: 0px;
-    font-size: 10px;
+    font-size: 15px;
   }
   footer hr {
     border: 1px solid white;

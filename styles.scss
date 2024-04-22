@@ -95,9 +95,9 @@ header{background-image: url(img/zmose.jpg); width: 100%; height: 100vh; backgro
 
 .sightings{h2{font-size: 40px; margin-top: 50px; text-align: center; font-size: gothamreg; margin-bottom: 30px; color: #3e372d;}
            p{font-family: gothamreg; text-align: left; font-size: 15px; margin-bottom: 20px; color: #000000;}
-			.pix{text-align: center;}
+			.pix{text-align: center; }
 			.right{text-align: center;}
-			.pix img{margin-bottom: 20px;}
+			.pix img{margin-bottom: 20px; width: 100%;}
 			.right img{margin-bottom: 20px;}
 
 }
@@ -107,7 +107,7 @@ header{background-image: url(img/zmose.jpg); width: 100%; height: 100vh; backgro
 	img{margin-bottom: 20px;}
 	.text{position: absolute; top: 0px;background-color: #00000077; height: 96%; width: 100%; display: flex; flex-direction: column;justify-content: end;}
  	h2{font-size: 40px; margin-top: 50px; text-align: center; font-size: gothamreg; margin-bottom: 30px; color: #3e372d;}
-    .orange{background-color: #e75317; position: relative; text-align: left; width: 90%;margin-bottom: 20px; margin-left: 20px;}
+    .orange{background-color: #e75317; position: relative; text-align: left; width: 100%;margin-bottom: 20px; }
     .heart-container{display: flex; justify-content: flex-end; margin-right: 10px;}
     .heart{background-color: white; display: flex; justify-content: center;align-items: center; width: 40px; height: 55px;}
     h4{margin-bottom: 20px; margin-left: 10px;}
@@ -131,7 +131,7 @@ header{background-image: url(img/zmose.jpg); width: 100%; height: 100vh; backgro
 }
 
 .gallery{h2{font-size: 40px; margin-top: 50px; text-align: center; font-size: gothamreg; margin-bottom: 30px; color: #3e372d;}
-         .pix img{margin-bottom: 20px;}
+         .pix img{margin-bottom: 20px; width: 100%;}
 		 position: relative;
 		 .pix{display: flex; align-items: center; justify-content: center; }
 }
@@ -257,7 +257,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 		ul li{font-size: 20px;}}
 		.menu img{width: 40px; height: 18px; position: absolute; right: 50px; top: 25px; z-index: 220;}
 		.he1{display: flex; justify-content: center; align-items: center; margin-top: -200px;}
-		h1{color: white; text-align: center; font-size: 110px; margin-top: -10px;}
+		h1{color: white; text-align: center; font-size: 110px; margin-top: -10px; font-family: gothamreg;}
 		.nature{display: none;}
 		.position{position: relative; width: 100%; height: 1%;}
 		.icons{display:flex; flex-direction: column; position: absolute; right: 30px; top: -80px; align-items: center; justify-content: center;}
@@ -272,7 +272,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 	.text{margin-top: 10px;}
 	h2{font-size: 35px; margin-top: 50px; text-align: left; font-size: gothamreg; margin-bottom: 80px; color: #3e372d;}
 	p{font-family: gothamreg; text-align: left; font-size: 14px; margin-bottom: 20px; color: #000000;}
-	button{background-color: #e75317;color: white; text-align: center; border: 1px #e75317 solid;width: 28%; height: 50px; margin-bottom: 10px; font-family: gothamreg; margin-left: 10px;}
+	button{background-color: #e75317;color: white; text-align: center; border: 1px #e75317 solid;width: 28%; height: 50px; margin-bottom: 10px; font-family: gothamreg; margin-left: 10px; font-size: 15px;}
 	.eleimg{margin-bottom: 20px; align-self: center;}
 	.eleimg img{width: 100%;margin-left: 50px;}
 	.chee{align-self: center;margin-top: 30px;margin-bottom: 30px;}
@@ -288,7 +288,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 	.text:after{position: absolute;}
 	.box:hover{transform: scale(1.1); z-index: 500;}
 	.box .text{position: absolute; top: 0; right: 0; h4{color: white; position: absolute; bottom: 0; right: 50px; font-size: 18px;} p{color: white; opacity: 0; display: none;} width: 100%; height: 100%; background-color: #00000000; transition: 0.6s; .can{position: absolute; left: 35px;} .fishing{position: absolute;left: 35px;}}
-	.box .text:hover{position: absolute; top: 0; right: 0; h4{color: white; position: absolute; top: 150px; right: 100px; font-size: 15px;} p{color: white; opacity: 1;display: block; position: absolute; top: 180px; text-align: left; right: 20px; font-size: 15px;} width: 100%; height: 100%; background-color: #00000052; transition: 0.6s;}
+	.box .text:hover{position: absolute; top: 0; right: 0; h4{color: white; position: absolute; top: 150px; right: 100px; font-size: 15px;} p{color: white; opacity: 1;display: block; position: absolute; top: 180px; text-align: left; right: 20px; font-size: 15px; margin-left: 15px;} width: 100%; height: 100%; background-color: #00000052; transition: 0.6s;}
 	
 }
 
@@ -311,8 +311,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 	.zambezi{position: relative;background-color: #000000; height: 100%; width: 100%; text-align: center;color: white; display: flex; flex-direction: column;justify-content: end; img{height: 100%; margin-bottom: 0px;}}
     .text{position: absolute; top: 0px;background-color: #00000077; height: 100%; width: 100%; display: flex; flex-direction: column;justify-content: end;}
 	h2{font-size: 35px; margin-top: 30px; text-align: left; font-size: gothamreg; margin-bottom: 50px; color: #3e372d; margin-left: 50px;}
-    .orange{background-color: #e75317; position: relative; text-align: left; width: 50%;margin-bottom: 20px; margin-left: 20px; display: flex; flex-direction: column; justify-content: center; height: 100%;}
-    .heart-container{display: flex; justify-content: flex-end; margin-right: 10px; position: absolute; top: 0; right: 10px;}
+    .orange{background-color: #e75317; position: relative; text-align: left; width: 50%;margin-bottom: 0px; margin-left: 0px; display: flex; flex-direction: column; justify-content: center; height: 100%; }
+    .heart-container{display: flex; justify-content: flex-end; margin-right: 10px; position: absolute; top: 0; right: 5px;}
 	.luxury{display: flex;flex-direction: row; height: 100%; img{width: 50%; height: 100%; }}
     h4{margin-bottom: 20px; margin-left: 10px; font-size: 18px;}
     p{margin-left: 10px; font-size: 15px;}
@@ -320,8 +320,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     hr{border: white solid 1px;}
     .hrtop{margin-top: 30px;}
     h3{margin-left: 10px; font-size: 20px;}
-	.heart{background-color: white; display: flex; justify-content: center;align-items: center; width: 45px; height: 55px ; margin-top: -5px; img{width: 23px; height: 23px;}}
-  .itenarary{display: flex; justify-content: space-between; img{width: 30px; height: 15px; margin-right: 20px; margin-top: 10px;} margin-bottom: 20px;}
+	.heart{background-color: white; display: flex; justify-content: center;align-items: center; width: 45px; height: 55px ; margin-top: -5px; img{width: 23px; height: 23px; margin-top: 20px;}}
+  .itenarary{display: flex; justify-content: space-between; img{width: 30px; height: 15px; margin-right: 20px; margin-top: 10px;} margin-bottom: 0px;}
 
 }
 
@@ -338,7 +338,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 }
 
 .gallery{h2{font-size: 35px; margin-top: 30px; text-align: left; font-size: gothamreg; margin-bottom: 30px; color: #3e372d; margin-left: 20px;}
-		 .pix img{height: 35vh; width: 100%;}
+		 .pix img{height: 35vh; width: 100%; object-fit: cover;}
 		 .pix{margin-bottom: 5px;}
 
 }
@@ -349,7 +349,7 @@ footer{background-color: #e75317; color: white; margin-bottom: 0px;
 	.information{display: flex; justify-content: space-around; flex-direction: column; h4{margin-top: 30px; margin-bottom: 30px; font-style: italic; font-size: 20px; margin-left: 10px;} a{text-decoration: none; color: white; font-size: 15px; margin-left: 10px; margin-bottom: 20px;} margin-bottom: 10px; line-height: 20px;}
 	.forms{ position: relative; margin-left: 10px; margin-right: 0px;h4{margin-top: 30px; margin-bottom: 30px; font-style: italic; font-size: 18px; margin-left: 10px;} form input{margin-bottom: 20px; outline: none; border: white; height: 40px; margin-right: 0px;}}
 	button{background-color: black; border: black 1px solid; color: white; font-style: italic; height: 40px; padding:5px ;margin-left: 0px; position: absolute;}
-	p{padding-bottom: 10px; text-align: center; margin-bottom: 0px; font-size: 10px;}
+	p{padding-bottom: 10px; text-align: center; margin-bottom: 0px; font-size: 15px;}
 	hr{border: 1px solid white;}
 	position: relative;
 }
